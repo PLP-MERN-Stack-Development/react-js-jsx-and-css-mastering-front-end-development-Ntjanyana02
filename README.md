@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React.js and Tailwind CSS Assignment
 
 This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
@@ -68,3 +69,29 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Vite Documentation](https://vitejs.dev/guide/)
 - [React Router Documentation](https://reactrouter.com/) 
+=======
+
+# Week 3: React.js, JSX, and Tailwind CSS – Front-End Development
+
+## Setup
+```bash
+npm install
+npm run dev
+```
+Open the URL printed by Vite (e.g., http://localhost:5173).
+
+## Features
+- Vite + React + Tailwind configured
+- React Router (Home, Tasks, Posts)
+- Reusable components: Button, Card, Navbar, Footer
+- Layout with Navbar + Footer
+- Theme (light/dark) via Context + Tailwind dark mode
+- Task Manager (add, complete, delete, filter) with useState/useEffect + custom `useLocalStorage`
+- API integration (JSONPlaceholder posts) with search + pagination
+- Responsive by default with Tailwind utility classes
+
+## Scripts
+- `npm run dev` – start dev server
+- `npm run build` – production build
+- `npm run preview` – preview production build
+>>>>>>> 66261be (Week 3: React + Tailwind Front-End App (complete))

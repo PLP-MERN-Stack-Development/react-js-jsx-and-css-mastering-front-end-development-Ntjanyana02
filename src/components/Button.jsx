@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -67,3 +68,14 @@ Button.propTypes = {
 };
 
 export default Button; 
+=======
+import React from 'react'
+const variants = {
+  primary: 'bg-indigo-600 hover:bg-indigo-700 text-white',
+  secondary: 'bg-zinc-200 hover:bg-zinc-300 text-zinc-900 dark:bg-zinc-700 dark:hover:bg-zinc-600 dark:text-zinc-100',
+  danger: 'bg-rose-600 hover:bg-rose-700 text-white',
+}
+export default function Button({ variant='primary', className='', ...props }) {
+  return <button className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition ${variants[variant]} ${className}`} {...props} />
+}
+>>>>>>> 66261be (Week 3: React + Tailwind Front-End App (complete))
