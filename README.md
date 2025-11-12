@@ -103,3 +103,5 @@ Open the URL printed by Vite (e.g., http://localhost:5173).
 ![Tasks](public/screenshots/tasks.png)
 ![API](public/screenshots/api.png)
 ![Dark Mode](public/screenshots/darkmode.png)
+
+Deployed via Vercel on 2025-11-12T11:08:02
