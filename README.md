@@ -95,3 +95,11 @@ Open the URL printed by Vite (e.g., http://localhost:5173).
 - `npm run build` – production build
 - `npm run preview` – preview production build
 >>>>>>> 66261be (Week 3: React + Tailwind Front-End App (complete))
+## ?? Live Demo
+- Vercel: https://your-app-name.vercel.app
+
+## ?? Screenshots
+![Home](public/screenshots/home.png)
+![Tasks](public/screenshots/tasks.png)
+![API](public/screenshots/api.png)
+![Dark Mode](public/screenshots/darkmode.png)
