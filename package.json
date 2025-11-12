@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "week3-react-tailwind",
   "version": "1.0.0",
   "private": true,
@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "engines": { "node": ">=18.17" },
+  "engines": {
+    "node": ">=18.17"
+  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
